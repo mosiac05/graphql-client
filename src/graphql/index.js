@@ -4,7 +4,7 @@ import { GraphQLWsLink } from '@apollo/client/link/subscriptions';
 import { createClient } from 'graphql-ws';
 import { setContext } from '@apollo/client/link/context';
 
-const token = "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHVkeTRhIiwiZXhwIjoxNzAyNzU4MTAwLCJpYXQiOjE3MDAxNjYxMDAsImlzcyI6InN0dWR5NGEiLCJqdGkiOiIyZGEwNGMzNS0yNTA0LTQ2MTMtODg4ZS0yOWViODYzODFlNTUiLCJuYmYiOjE3MDAxNjYwOTksInN1YiI6IjIiLCJ0eXAiOiJhY2Nlc3MifQ.b1lafEIx1ULm2uJeu2zhGKfWqREwVJKhMjdirgP_ZkdzSk8e9Nv3-eh7wiq6TTOOFyC87KmsrE8GkcwQCExkkA"
+const token = ""
 
 const httpLink = new HttpLink({
   uri: 'http://localhost:4000/api'
